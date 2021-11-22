@@ -1,7 +1,7 @@
 AUTHOR = 'Ardis Ponteray'
 SITENAME = "The stories of Ardis Ponteray"
 # SITEURL = 'https://ardisponteray.github.io'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 THEME = '/home/beatpanic/pelican-themes/Peli-Kiera/'
 
 ABOUT_TEXT = 'Lorem'
