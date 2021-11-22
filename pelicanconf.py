@@ -1,6 +1,12 @@
 AUTHOR = 'Ardis Ponteray'
-SITENAME = "Ardis Ponteray's stories"
-SITEURL = ''
+SITENAME = "The stories of Ardis Ponteray"
+# SITEURL = 'https://ardisponteray.github.io'
+SITEURL = 'http://localhost:8000'
+THEME = '/home/beatpanic/pelican-themes/Peli-Kiera/'
+
+ABOUT_TEXT = 'Lorem'
+ABOUT_IMAGE = 'images/feraliminal-Tentacular-Heart.png'
+HEADER_IMAGE = 'images/feraliminal-Tentacular-Heart.png'
 
 PATH = 'content'
 
