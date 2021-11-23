@@ -17,6 +17,7 @@
 /* Original text overlay */
 .overlay-image .text {
   background-color: #935D8C;
+  background-image: linear-gradient(to bottom right, #5F4D93, #E37682); 
   color: #000;
   text-shadow: 2px 2px 2px gray;
   font-size: 30px;
