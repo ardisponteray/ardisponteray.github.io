@@ -139,7 +139,7 @@ time {
 }
 
 #container nav {
-  border-bottom: solid 3px black;
+  border-bottom: solid 1px black;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-family: "Ruda", sans-serif;
@@ -473,7 +473,7 @@ blockquote {
 
 #parchment {
   position: relative;
-  margin-top: 20px;
+  margin-top: 160px;
   display: flex;
   width: 720px;
   height: 220px;
@@ -492,7 +492,7 @@ blockquote {
   display: flex;
   z-index: -1;
   width: 600px;
-  height: 250px;
+  height: 300px;
   /* center page with absolute position */
   top: 80%; 
   left: 50%; 
