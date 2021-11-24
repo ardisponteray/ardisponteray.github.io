@@ -492,7 +492,7 @@ blockquote {
   display: flex;
   z-index: -1;
   width: 600px;
-  height: 300px;
+  height: 350px;
   /* center page with absolute position */
   top: 80%; 
   left: 50%; 
