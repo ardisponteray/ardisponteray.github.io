@@ -27,6 +27,8 @@
   line-height: 1.5em;
   text-align: center;
   position: absolute;
+  height: 40px;
+  margin-top: 0px;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -42,10 +44,8 @@
 /* Original parchment */
 .overlay-parchment .image {
   display: block;
-  width: 100%;
   width: 300px;
-  height: 200px;
-  margin-top: 68px;
+  margin-top: 90px;
   height: auto;
 }
 
@@ -473,15 +473,14 @@ blockquote {
 
 #parchment {
   position: relative;
+  margin-top: 20px;
   display: flex;
-  width: auto;
-  min-height: calc((1vw + 1vh) * 9);
+  width: 720px;
+  height: 220px;
   /* center page with absolute position */
   top: 90%; 
   left: 50%; 
   transform: translate(-50%, 0);
-  margin: 2em 0;
-  padding: 4em;
   box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
   background: white;
   filter: url(#wavy2);
@@ -493,7 +492,7 @@ blockquote {
   display: flex;
   z-index: -1;
   width: 600px;
-  min-height: calc((1vw + 1vh) * 11);
+  height: 250px;
   /* center page with absolute position */
   top: 80%; 
   left: 50%; 
@@ -559,11 +558,11 @@ ul.pagination li.active {
   display: inline-block;
   height: 70px;
   line-height: 70px;
-  position: absolute;
+  position: relative;
   width: 180px;
   margin: 10px;
   left: 330px;
-  top: 70%;
+  top: 50%;
   text-align: left;
   transform: translate(-50%, 0);
   padding-left: 20px;
